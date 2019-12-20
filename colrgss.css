@@ -1,0 +1,76 @@
+body {
+    background-color: #000100;
+    margin: 0cm;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    float: right;
+    border-radius: 12%;
+    transition: .5s;
+}
+
+.contener {
+    width: 600px;
+    margin: 20px auto;
+}
+
+h1 {
+    padding: 20px 0;
+    line-height: 1.1;
+    color: white;
+    text-align: center;
+    background: steelblue;
+    margin: 0px;
+    transition: .5s;
+}
+
+#res {
+    color: steelblue;
+    font-weight: 700;
+}
+
+#strip {
+    height: 30px;
+    background: white;
+    text-align: center;
+    color: steelblue;
+}
+
+.selected {
+    background: steelblue;
+    color: whitesmoke;
+}
+
+button {
+    height: 30px;
+    background: none;
+    border: none;
+    font-weight: 700;
+    color: steelblue;
+    font-size: inherit;
+    letter-spacing: 1px;
+    transition: .5s;
+    outline: thin;
+}
+
+#res {
+    display: inline-block;
+    width: 25%;
+}
+
+#Guess {
+    font-size: 180%;
+}
+
+button:hover {
+    background: steelblue;
+    color: whitesmoke;
+    transition: .55s;
+}
